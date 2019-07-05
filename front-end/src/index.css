@@ -1,0 +1,13 @@
+html, body {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.root {
+  min-height: 100%;
+}

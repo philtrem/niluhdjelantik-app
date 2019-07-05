@@ -1,0 +1,22 @@
+CREATE TABLE inventory ( id INTEGER PRIMARY KEY, model TEXT, color TEXT, type TEXT, price REAL, quantity INTEGER, box_number INTEGER, image_url TEXT );
+
+create TABLE models ( id INTEGER PRIMARY KEY, name TEXT );
+create TABLE colors ( id INTEGER PRIMARY KEY, name TEXT );
+create TABLE types ( id INTEGER PRIMARY KEY, name TEXT );
+
+CREATE TABLE sizes (id INTEGER PRIMARY KEY, "34" INTEGER DEFAULT 0, "35" INTEGER DEFAULT 0, "36" INTEGER DEFAULT 0, "37" INTEGER DEFAULT 0, "38" INTEGER DEFAULT 0, "39" INTEGER DEFAULT 0, "40" INTEGER DEFAULT 0, "41" INTEGER DEFAULT 0);
+
+CREATE TABLE users (username STRING PRIMARY KEY, password STRING);
+
+CREATE TABLE sessions (id STRING PRIMARY KEY, exp INT);
+
+boots flat
+boots highheel
+boots midheel
+flats ballet
+flats laceup
+pumps highheel
+sandals flat
+sandals higheel
+sandals midheel
+sandals wedges

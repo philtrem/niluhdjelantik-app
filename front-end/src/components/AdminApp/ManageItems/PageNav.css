@@ -1,0 +1,15 @@
+.page-nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+.page-nav-container p {
+    font-size: 1.5rem;
+    padding: 0 1rem;
+}
+
+.page-nav-container button {
+    font-size: 1.5rem;
+}

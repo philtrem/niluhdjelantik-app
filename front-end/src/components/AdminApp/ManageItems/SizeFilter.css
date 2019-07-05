@@ -1,0 +1,33 @@
+.manage-items-size-filter-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.manage-items-size-filter-grid {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 12rem;
+}
+
+.manage-items-size-filter-cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px outset #707070;
+    font-size: 1.3rem;
+    margin: 0.25rem;
+    padding: 0.25rem;
+}
+
+.manage-items-size-filter-cell:hover {
+    background: #c8c8c8;
+}
+
+.manage-items-size-filter-cell.toggled {
+    background: #3c3c3c;
+}
+

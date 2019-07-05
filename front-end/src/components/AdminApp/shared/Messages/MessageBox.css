@@ -1,0 +1,27 @@
+.messages {
+    text-align:center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(239, 239, 239, 0.9);
+    border: 1px solid #353535;
+    font-size: 2rem;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 10rem;
+    width: 15rem;
+    z-index: 10;
+}
+.messages.none {
+    color: #1e1e1e;
+}
+
+.messages.success {
+    color: rgb(66, 158, 255);
+}
+
+.messages.error {
+    color: #a90000;
+}

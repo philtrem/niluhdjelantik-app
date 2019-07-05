@@ -1,0 +1,43 @@
+.login-form-container {
+    display: flex;
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 1.5rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    min-height: 100%;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.login-form-header {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+.login-form p {
+    margin-bottom: 0.5rem;
+}
+.login-form input {
+}
+
+.login-form-password {
+    color: black;
+}
+
+.login-form-submit {
+    margin-top: 1rem;
+    font-size: inherit;
+    font-family: monospace;
+    padding: 0.3rem 0.5rem;
+}
+
+.login-form-message {
+    color: darkred;
+    margin-top: 1rem;
+}
